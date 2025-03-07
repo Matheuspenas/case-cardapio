@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+/* bloco de estilização de cabecalio */
+
+header{
+    background-color:#ff9800 ;
+    color: #7b0909;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.banner-content{
+    width: 80%;
+    
+}
+
+.banner h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.banner p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* estilização do menu */
+
+nav a{
+    text-decoration: none;
+    color: #7b0909;
+    margin: 0 1rem;
+}
