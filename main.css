@@ -45,3 +45,16 @@ nav a{
 nav a:hover{
     background-color:burlywood;
 }
+
+/* estilização da seçãos */
+
+.categoria{
+    margin-bottom: 2rem;
+}
+
+.produto{
+    background-color: #f5f5dc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
