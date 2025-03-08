@@ -87,8 +87,18 @@ main{
     padding: 0.5rem 1rem;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
 }
-
+.adicionar:hover{
+    background-color:chocolate;
+}
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color:#f5f5dc ;
+    counter-reset: #fff;
+}
 /* estilo de responsividade */
 @media(min-width: 768px){
     main{
