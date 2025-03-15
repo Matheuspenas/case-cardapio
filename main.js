@@ -14,10 +14,10 @@ botoesAdicionar.forEach(botao => {
         const itemPedido = document.createElement('li');
         itemPedido.textContent = `${nome}  - R$ ${preco.toFixed(2)}`;
 
-        // Add the item to the list
+       
         listaPedido.appendChild(itemPedido);
 
-        // Update the total
+  
         total += preco;
         totalElemento.textContent = `Total: R$ ${total.toFixed(2)}`;
     });
@@ -26,9 +26,7 @@ botoesAdicionar.forEach(botao => {
 const botaoFinalizarPedido = document.getElementById('finalizar-pedido');
 botaoFinalizarPedido.addEventListener('click', () => {
     alert("Pedido realizado com sucesso");
-
-    // Optionally, you could clear the order after finalization
-    listaPedido.innerHTML = ''; // Clear the list of items
-    total = 0; // Reset total
-    totalElemento.textContent = `Total: R$ ${total.toFixed(2)}`; // Reset total display
+    listaPedido.innerHTML = ''; 
+    total = 0;
+    totalElemento.textContent = `Total: R$ ${total.toFixed(2)}`; 
 });
