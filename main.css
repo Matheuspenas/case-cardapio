@@ -151,6 +151,24 @@ h2 {
 #listapedidos{
   list-style: none;
   padding: 0;
+  color: #7b0909;
+}
+
+#finalizar-pedido{
+  display: inline-block;
+  background-color: burlywood;
+  color: #fff7e0;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin: 0.5;
+  cursor: pointer;
+}
+
+#finalizar-pedido:hover{
+  background-color: #7b0909;
 }
 
 #Contatos{
