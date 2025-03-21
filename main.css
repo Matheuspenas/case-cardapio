@@ -148,6 +148,10 @@ h2 {
 
 }
 
+.total{
+  color: #7b0909;
+}
+
 #listapedidos{
   list-style: none;
   padding: 0;
@@ -190,6 +194,10 @@ h2 {
 
 .rede-sociais a:hover {
   background-color: #7b0909;
+}
+
+#total{
+  color: #7b0909;
 }
 
 footer {
